@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: black;
+color: aliceblue;
+}
+.button{
+    padding: 20px;
+    margin: 5px ;g
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.row input{
+    padding: 10px 0px;
+    margin: 10px ;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.col{
+    display: flex;
+    width: 23%;
+    justify-content: center;
+     align-items: center; 
+}
+.button0{
+    width: 200%;
+}
+  .try{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;   
+} 
