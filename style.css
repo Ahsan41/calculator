@@ -9,9 +9,9 @@ color: aliceblue;
 }
 .button{
     padding: 20px;
-    margin: 5px ;g
+    margin: 5px ;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .container{
@@ -20,7 +20,8 @@ color: aliceblue;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    /* width: 600px; */
+    background-color: yellow;
 }
 .row input{
     padding: 10px 0px;
@@ -36,7 +37,7 @@ color: aliceblue;
      align-items: center; 
 }
 .button0{
-    width: 200%;
+    padding: 20px 50px;
 }
   .try{
     display: flex;
