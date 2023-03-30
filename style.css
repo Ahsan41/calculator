@@ -21,7 +21,13 @@ color: aliceblue;
     align-items: center;
     flex-direction: column;
     /* width: 600px; */
-    background-color: yellow;
+    /* background-color: yellow; */
+    width: 100%;
+}
+.row{
+    width: 25%;
+    background-color: rgb(16, 66, 109);
+    padding-left: 25px;
 }
 .row input{
     padding: 10px 0px;
@@ -29,18 +35,24 @@ color: aliceblue;
     border: 2px solid black;
     border-radius: 5px;
     font-size: 20px;
+    background-color: black;
+    color: white;
 }
 .col{
     display: flex;
-    width: 23%;
+    /* width: 23%; */
     justify-content: center;
      align-items: center; 
 }
 .button0{
-    padding: 20px 50px;
+    padding: 20px 53px;
 }
-  .try{
-    display: flex;
-    justify-content:space-evenly;
-    width: 100%;   
-} 
+.math{
+    background-color: chocolate;
+}
+.num{
+    background-color: grey;
+}
+.ext{
+    background-color: cadetblue;
+}
